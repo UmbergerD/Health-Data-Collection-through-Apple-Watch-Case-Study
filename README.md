@@ -50,27 +50,21 @@ Data Quality & Distribution Findings
 
 • 	Steps and distance variables contained >10% outliers, likely due to activity transitions.
 
-Visualization: Outlier Concentration
-<h3>Outlier Concentration</h3>
+<h3>Visualization:Outlier Concentration</h3>
 <img src="figures/fig_outliers.png" width="500">
 
-Steps × Distance Histogram
 <h3>Steps × Distance Histogram</h3>
-![Steps x Distance Histogram](figures/fig_histograms.png)
 <img src="figures/fig_histograms.png" width="500">
 
 • 	Heart rate distributions were bimodal, reflecting rest vs. exertion states.
 
-Example Visualization: Heart Rate by Gender
-<h3>Heart Rate by Gender</h3>
-![Heart Rate Distribution](figures/fig_heart_rate_gender.png)
+
+<h3>Visualization: Heart Rate by Gender</h3>
 <img src="figures/fig_heart_rate_gender.png" width="500">
 
 • 	Derived metrics (entropy, correlation) showed narrow ranges due to internal smoothing.
 
-Visualization: Activity Distribution
-<h3>Activity Distribution</h3>
-![Activity Histogram](figures/fig_activity_distribution.png)
+<h3>Visualization: Activity Distribution</h3>
 <img src="figures/fig_activity_distribution.png" width="500">
 
 
