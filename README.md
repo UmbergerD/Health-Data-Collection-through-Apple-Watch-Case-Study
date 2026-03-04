@@ -58,15 +58,10 @@ Data Quality & Distribution Findings
 
 • 	Heart rate distributions were bimodal, reflecting rest vs. exertion states.
 
-
 <h3>Visualization: Heart Rate by Gender</h3>
 <img src="figures/fig_heart_rate_gender.png" width="500">
 
 • 	Derived metrics (entropy, correlation) showed narrow ranges due to internal smoothing.
-
-<h3>Visualization: Activity Distribution</h3>
-<img src="figures/fig_activity_distribution.png" width="500">
-
 
 Bias & Imbalance Findings
 
@@ -76,9 +71,8 @@ Bias & Imbalance Findings
 
 • 	Women were overrepresented in low‑movement states, while men appeared more often in higher‑intensity activities.
 
-
-
-
+<h3>Visualization: Activity Distribution</h3>
+<img src="figures/fig_activity_distribution.png" width="500">
 
 Recommendations
 
