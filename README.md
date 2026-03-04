@@ -13,28 +13,44 @@ From a business and societal perspective, the reliability and fairness of health
 
 # Methodology:
 • 	Conducted a full structural audit of the dataset, checking for missing values, duplicates, and anomalies.
+
 • 	Performed exploratory data analysis using histograms, boxplots, and distribution plots to identify outliers and skewed variables.
+
 • 	Evaluated demographic and activity‑level imbalances, including gender distribution and class imbalance across activity categories.
+
 • 	Applied winsorization (1st–99th percentile) to reduce the influence of extreme sensor spikes while preserving physiological ranges.
+
 • 	Implemented a reweighting‑based resampling technique to address intersectional bias without generating synthetic physiological signals.
+
 • 	Assessed ethical implications using Kantianism, Act Utilitarianism, and Rule Utilitarianism.
+
 • 	Documented transparency measures, including feature provenance, preprocessing decisions, and fairness considerations.
 
 # Skills:
 • 	Data quality auditing and preprocessing
+
 • 	Exploratory data analysis and visualization
+
 • 	Bias detection and fairness‑oriented resampling
+
 • 	Ethical reasoning and data governance analysis
+
 • 	Interpretation of wearable‑sensor data
+
 • 	Documentation and transparency practices
+
 • 	Python (pandas, numpy, matplotlib, seaborn)
+
 • 	Jupyter Notebook workflow
 
 # Results and Recommendations:
 Data Quality & Distribution Findings
 • 	No missing or duplicate records were found.
+
 • 	Steps and distance variables contained >10% outliers, likely due to activity transitions.
+
 • 	Heart rate distributions were bimodal, reflecting rest vs. exertion states.
+
 • 	Derived metrics (entropy, correlation) showed narrow ranges due to internal smoothing.
 
 Example Visualization: Outlier Concentration
@@ -45,7 +61,9 @@ Example Visualization: Activity Distribution
 
 Bias & Imbalance Findings
 • 	“Lying” activity dominated the dataset, creating label imbalance.
+
 • 	Gender imbalance (26 women, 20 men) contributed to intersectional bias.
+
 • 	Women were overrepresented in low‑movement states, while men appeared more often in higher‑intensity activities.
 
 Example Visualization: Heart Rate by Gender
@@ -53,10 +71,15 @@ Example Visualization: Heart Rate by Gender
 
 Recommendations
 • 	Improve meaningful consent through progressive disclosure and simplified language.
+
 • 	Strengthen data security with end‑to‑end encryption and independent audits.
+
 • 	Enforce strict third‑party data contracts to prevent unauthorized sharing.
+
 • 	Publish transparency reports detailing data usage, retention, and algorithmic impacts.
+
 • 	Adopt fairness‑oriented modeling practices, including reweighting and demographic reporting.
+
 • 	Maintain reproducible preprocessing logs and model cards for accountability.
 
 # Next Steps:
